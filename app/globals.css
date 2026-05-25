@@ -20,6 +20,7 @@
   --ring: 346 67% 38%;
   --radius: 0.5rem;
   --gold: #c49b41;
+  --font-site: "Lora", Georgia, serif;
 }
 
 * {
@@ -32,9 +33,16 @@ html {
 
 body {
   @apply bg-background text-foreground antialiased;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: var(--font-site);
   scrollbar-width: thin;
   scrollbar-color: rgba(196, 155, 65, 0.3) transparent;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
 }
 
 body::-webkit-scrollbar {
@@ -55,7 +63,7 @@ a {
 .font-cinzel,
 .font-playfair,
 .font-sans {
-  font-family: "Inter", Arial, sans-serif !important;
+  font-family: var(--font-site) !important;
 }
 
 .section-padding {
@@ -129,7 +137,7 @@ span.font-cinzel {
 .news-prose h2,
 .news-prose h3,
 .news-prose h4 {
-  font-family: "Inter", Arial, sans-serif;
+  font-family: var(--font-site);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;

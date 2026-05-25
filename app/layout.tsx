@@ -26,6 +26,11 @@ export const metadata: Metadata = {
     default: programBrand.name,
     template: `%s | ${programBrand.name}`
   },
+  icons: {
+    icon: "/assets/Logo_TSVN/Logo_TSVN_bg.jpg",
+    shortcut: "/assets/Logo_TSVN/Logo_TSVN_bg.jpg",
+    apple: "/assets/Logo_TSVN/Logo_TSVN_bg.jpg"
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -35,9 +40,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap&subset=vietnamese"
+          href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap&subset=vietnamese"
           rel="stylesheet"
         />
+        <link rel="icon" href="/assets/Logo_TSVN/Logo_TSVN_bg.jpg" />
       </head>
       <body>
         {children}
