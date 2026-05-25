@@ -121,12 +121,14 @@ export const scheduleBlocks = [
     id: "schedule-list",
     type: "schedule",
     items: programFormatItems.map((item, index) => ({
-      date:
-        index === 0
-          ? "Giai đoạn 1"
-          : index === 4
-            ? "Gala"
-            : `Giai đoạn ${index + 1}`,
+      date: [
+        "Đến 25/06/2026",
+        "Giai đoạn 2",
+        "Giai đoạn 3",
+        "Ghi hình",
+        "Dự kiến 2026",
+        "Dự kiến 2026",
+      ][index] || `Giai đoạn ${index + 1}`,
       title: item.title,
       description: item.description,
     })),
@@ -326,13 +328,13 @@ export const examScheduleBlocks = [
         date: "Tháng 7–8/2026",
         title: "BÁN KẾT — Hà Nội (dự kiến)",
         description:
-          "Địa điểm: Hà Nội. Nội dung: Lựa chọn 30 thí sinh điểm cao nhất có mặt trong đêm Chung kết — gồm phần thi catwalk và phần thi hình thể/sắc đẹp.",
+          "Địa điểm (dự kiến): Hà Nội\nNội dung thi: Lựa chọn 30 thí sinh có điểm cao nhất có mặt trong đêm Chung kết.\n+ Catwalk\n+ Phần thi tài năng",
       },
       {
-        date: "Tháng 7–8/2026",
-        title: "CHUNG KẾT (dự kiến)",
+        date: "Dự kiến 2026",
+        title: "CHUNG KẾT",
         description:
-          "30 thí sinh tranh tài với các phần: Trình diễn trang phục ăn hỏi — Trình diễn trang phục dân hội — Phần thi tài năng — Top 5 Ứng xử. Trang phục, phụ liệu và trang điểm thí sinh tự chuẩn bị. BTC hỗ trợ lịch trang điểm chuyên nghiệp và suất ăn trong toàn bộ quá trình thi.",
+          "Nội dung thi: 30 thí sinh sẽ cùng có mặt trong đêm Chung kết, lần lượt tham gia các phần sau:\n+ Trình diễn trang phục áo dài\n+ Trình diễn trang phục dạ hội\n+ Phần thi tài năng\n+ Top 5 - Phần thi ứng xử\nCông bố và trao giải thưởng cho các danh hiệu: Quán quân, Quán quân 1, Quán quân 2 và các giải phụ.",
       },
     ],
   },
@@ -432,9 +434,15 @@ export const timelineBlocks = [
       },
       {
         date: "Tháng 7–8/2026",
-        title: "BÁN KẾT & CHUNG KẾT (dự kiến)",
+        title: "VÒNG BÁN KẾT CHƯƠNG TRÌNH",
         description:
-          "Top 30 vào Bán kết. Đêm Chung kết: trang phục ăn hỏi, trang phục dân hội, tài năng và Top 5 ứng xử.",
+          "Địa điểm (dự kiến): Hà Nội\nNội dung thi: Lựa chọn 30 thí sinh có điểm cao nhất có mặt trong đêm Chung kết.\n+ Catwalk\n+ Phần thi tài năng",
+      },
+      {
+        date: "Dự kiến 2026",
+        title: "VÒNG CHUNG KẾT",
+        description:
+          "Nội dung thi: 30 thí sinh sẽ cùng có mặt trong đêm Chung kết, lần lượt tham gia các phần sau:\n+ Trình diễn trang phục áo dài\n+ Trình diễn trang phục dạ hội\n+ Phần thi tài năng\n+ Top 5 - Phần thi ứng xử\nCông bố và trao giải thưởng cho các danh hiệu: Quán quân, Quán quân 1, Quán quân 2 và các giải phụ.",
       },
     ],
   },
@@ -457,14 +465,14 @@ export const finalRoundBlocks = [
     type: "richText",
     eyebrow: "Vòng bán kết",
     title: "Vòng bán kết chương trình",
-    body: `Thời gian (dự kiến): Tháng 7–8/2026\nĐịa điểm (dự kiến): Hà Nội\n\nNội dung thi: Lựa chọn Top 30 thí sinh điểm cao nhất có mặt trong đêm Chung kết.\n\n• Catwalk theo nhạc\n• Phần thi hình thể & sắc đẹp`,
+    body: `Địa điểm (dự kiến): Hà Nội\n\nNội dung thi: Lựa chọn 30 thí sinh có điểm cao nhất có mặt trong đêm Chung kết.\n\n• Catwalk\n• Phần thi tài năng`,
   },
   {
     id: "final-round-grand",
     type: "richText",
     eyebrow: "Vòng chung kết",
     title: "Đêm Gala Chung kết",
-    body: `Thời gian (dự kiến): Tháng 7–8/2026\n\n30 thí sinh sẽ cùng tranh tài trong đêm Chung kết với các phần thi:\n\n• Trình diễn trang phục ăn hỏi\n• Trình diễn trang phục dân hội\n• Phần thi tài năng\n• Top 5 — Phần thi ứng xử`,
+    body: `Nội dung thi: 30 thí sinh sẽ cùng có mặt trong đêm Chung kết, lần lượt tham gia các phần sau:\n\n• Trình diễn trang phục áo dài\n• Trình diễn trang phục dạ hội\n• Phần thi tài năng\n• Top 5 - Phần thi ứng xử\n\nCông bố và trao giải thưởng cho các danh hiệu: Quán quân, Quán quân 1, Quán quân 2 và các giải phụ.`,
   },
   {
     id: "final-round-notes",

@@ -568,10 +568,24 @@ async function ScheduleBlock({ block }: { block: Block }) {
     },
     {
       id: "fallback-schedule-4",
-      time: "Dự kiến 2026",
-      title: "Gala Chung kết",
+      time: "Ghi hình",
+      title: "06 tập phát sóng",
       description:
-        "Đêm vinh danh các gương mặt nổi bật của hành trình Tài Sắc Việt Nam.",
+        "Hành trình được ghi hình thành chuỗi truyền hình thực tế trước đêm chung kết.",
+    },
+    {
+      id: "fallback-schedule-5",
+      time: "Dự kiến 2026",
+      title: "Vòng bán kết chương trình",
+      description:
+        "Địa điểm (dự kiến): Hà Nội\nNội dung thi: Lựa chọn 30 thí sinh có điểm cao nhất có mặt trong đêm Chung kết.\n+ Catwalk\n+ Phần thi tài năng",
+    },
+    {
+      id: "fallback-schedule-6",
+      time: "Dự kiến 2026",
+      title: "Vòng chung kết",
+      description:
+        "Nội dung thi: 30 thí sinh sẽ cùng có mặt trong đêm Chung kết, lần lượt tham gia các phần sau:\n+ Trình diễn trang phục áo dài\n+ Trình diễn trang phục dạ hội\n+ Phần thi tài năng\n+ Top 5 - Phần thi ứng xử\nCông bố và trao giải thưởng cho các danh hiệu: Quán quân, Quán quân 1, Quán quân 2 và các giải phụ.",
     },
   ];
   const schedules = (
@@ -661,7 +675,7 @@ async function ScheduleBlock({ block }: { block: Block }) {
                     <h3 className="font-cinzel text-lg font-bold uppercase tracking-wider text-white hover:text-[#D4AF37] transition-colors duration-300">
                       {item.title}
                     </h3>
-                    <p className="mt-3 font-sans text-sm leading-6 text-zinc-400">
+                    <p className="mt-3 whitespace-pre-line font-sans text-sm leading-6 text-zinc-400">
                       {item.description}
                     </p>
                   </div>
@@ -672,7 +686,7 @@ async function ScheduleBlock({ block }: { block: Block }) {
                     <h3 className="font-cinzel text-lg font-bold uppercase tracking-wider text-white hover:text-[#D4AF37] transition-colors duration-300">
                       {item.title}
                     </h3>
-                    <p className="mt-3 font-sans text-sm leading-6 text-zinc-400">
+                    <p className="mt-3 whitespace-pre-line font-sans text-sm leading-6 text-zinc-400">
                       {item.description}
                     </p>
                   </div>
