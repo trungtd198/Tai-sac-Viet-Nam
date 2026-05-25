@@ -4,9 +4,8 @@ import { programBrand } from "@/lib/program-copy";
 
 const siteName = programBrand.name;
 const defaultDescription =
-  "Website chính thức của Tài Sắc Việt Nam 2026: hành trình truyền hình thực tế tôn vinh bản lĩnh, trí tuệ và giá trị văn hóa Việt.";
-const defaultImage =
-  "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1600&q=80";
+  "Tài Sắc Việt Nam 2026 - hành trình tìm kiếm hình ảnh người phụ nữ Việt Nam thế hệ mới: bản lĩnh, trí tuệ và lan tỏa giá trị văn hóa Việt.";
+const defaultImage = "/assets/banners/banner.jpg";
 
 export function siteUrl(path = "/") {
   const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, "");
@@ -28,7 +27,11 @@ export function createMetadata({
 }): Metadata {
   const resolvedDescription = description || defaultDescription;
   const url = siteUrl(path);
-  const images = image ? [{ url: image, width: 1600, height: 900, alt: title }] : undefined;
+  const resolvedImage =
+    image && image.startsWith("http") ? image : image ? siteUrl(image) : null;
+  const images = resolvedImage
+    ? [{ url: resolvedImage, width: 1672, height: 941, alt: title }]
+    : undefined;
 
   return {
     title,
@@ -48,7 +51,7 @@ export function createMetadata({
       card: "summary_large_image",
       title,
       description: resolvedDescription,
-      images: image ? [image] : undefined
+      images: resolvedImage ? [resolvedImage] : undefined
     },
     robots: noIndex
       ? {
@@ -62,5 +65,5 @@ export function createMetadata({
 export const defaultSeo = {
   siteName,
   description: defaultDescription,
-  image: defaultImage
+  image: siteUrl(defaultImage)
 };
