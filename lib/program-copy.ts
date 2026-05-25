@@ -57,8 +57,14 @@ export const programFormatItems = [
     description: "Hành trình được ghi hình thành chuỗi truyền hình thực tế trước đêm chung kết."
   },
   {
-    title: "Gala Chung kết",
-    description: "Đêm vinh danh rực rỡ, công bố danh hiệu và các cơ hội đồng hành chuyên nghiệp."
+    title: "Vòng bán kết chương trình",
+    description:
+      "Địa điểm (dự kiến): Hà Nội\nNội dung thi: Lựa chọn 30 thí sinh có điểm cao nhất có mặt trong đêm Chung kết.\n+ Catwalk\n+ Phần thi tài năng"
+  },
+  {
+    title: "Vòng chung kết",
+    description:
+      "Nội dung thi: 30 thí sinh sẽ cùng có mặt trong đêm Chung kết, lần lượt tham gia các phần sau:\n+ Trình diễn trang phục áo dài\n+ Trình diễn trang phục dạ hội\n+ Phần thi tài năng\n+ Top 5 - Phần thi ứng xử\nCông bố và trao giải thưởng cho các danh hiệu: Quán quân, Quán quân 1, Quán quân 2 và các giải phụ."
   }
 ];
 

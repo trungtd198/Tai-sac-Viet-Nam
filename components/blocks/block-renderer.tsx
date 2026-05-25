@@ -463,7 +463,7 @@ async function Block({ block }: { block: ContentBlock }) {
                     <h3 className="font-cinzel text-xl font-bold uppercase tracking-wide text-white transition-colors duration-300 group-hover:text-[#c49b41]">
                       {item.title}
                     </h3>
-                    <p className="mt-2 text-sm leading-7 text-white/60 transition-colors duration-300 group-hover:text-white/80">
+                    <p className="mt-2 whitespace-pre-line text-sm leading-7 text-white/60 transition-colors duration-300 group-hover:text-white/80">
                       {item.description}
                     </p>
                   </div>

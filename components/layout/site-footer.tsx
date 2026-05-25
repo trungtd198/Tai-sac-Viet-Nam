@@ -131,7 +131,7 @@ export async function SiteFooter() {
               </svg>
             </a>
             {/* Instagram */}
-            <a
+            {/* <a
               href="#"
               aria-label="Instagram"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white/85 transition-all duration-300 hover:border-[#c49b41]/50 hover:text-[#c49b41] hover:shadow-[0_0_16px_rgba(196,155,65,0.15)]"
@@ -156,7 +156,7 @@ export async function SiteFooter() {
                   stroke="none"
                 />
               </svg>
-            </a>
+            </a> */}
             {/* YouTube */}
             <a
               href={socialLinks.youtube}

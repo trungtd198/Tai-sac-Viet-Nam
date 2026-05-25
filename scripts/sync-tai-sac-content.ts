@@ -213,7 +213,7 @@ async function syncHomeBlocks() {
     title: "Format và lịch trình chương trình",
     content: {
       source: "schedules",
-      limit: 5
+      limit: 6
     },
     order: 5
   });
@@ -340,6 +340,14 @@ async function syncReferenceData() {
       title: programFormatItems[4].title,
       description: programFormatItems[4].description,
       order: 5,
+      isFeatured: true
+    },
+    {
+      date: new Date("2026-09-12T00:00:00.000Z"),
+      time: "19:30",
+      title: programFormatItems[5].title,
+      description: programFormatItems[5].description,
+      order: 6,
       isFeatured: true
     }
   ];

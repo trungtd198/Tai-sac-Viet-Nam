@@ -89,7 +89,7 @@ function getFallbackHomeBlocks() {
       pageKey: "home",
       type: PageBlockType.SCHEDULE,
       title: "Lịch trình chương trình",
-      content: { limit: 4, items: programFormatItems },
+      content: { limit: 6, items: programFormatItems },
       order: 5,
       isActive: true,
       mediaId: null,
