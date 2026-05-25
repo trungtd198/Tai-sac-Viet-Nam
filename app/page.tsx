@@ -9,8 +9,9 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = createMetadata({
   title: programBrand.name,
-  description: "Website chính thức của hành trình Tài Sắc Việt Nam 2026 với nội dung được hiển thị từ các khối CMS.",
-  path: "/"
+  description: "Tài Sắc Việt Nam 2026 - hành trình tìm kiếm hình ảnh người phụ nữ Việt Nam thế hệ mới: bản lĩnh, trí tuệ và lan tỏa giá trị văn hóa Việt.",
+  path: "/",
+  image: "/assets/banners/banner.jpg"
 });
 
 export default async function HomePage() {
