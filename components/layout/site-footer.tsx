@@ -37,13 +37,13 @@ export async function SiteFooter() {
         {/* ── Column 1: Brand ── */}
         <div>
           {/* Logo */}
-          <div className="relative mb-5 h-16 w-32">
+          <div className="relative mb-2 h-28 w-40 overflow-hidden">
             <Image
               src={logoSrc}
               alt={brand.name}
               fill
               sizes="128px"
-              className="object-contain object-left"
+              className="scale-125 object-contain object-left-bottom"
             />
           </div>
 
@@ -178,6 +178,30 @@ export async function SiteFooter() {
                 />
               </svg>
             </a>
+          </div>
+
+          {/* Hotline */}
+          <div className="mt-6 space-y-2 text-[15px] text-white/75">
+            <p
+              className="font-cinzel text-[12px] font-semibold uppercase tracking-[0.24em]"
+              style={{ color: "#c49b41" }}
+            >
+              Hotline
+            </p>
+            <div className="flex flex-col gap-1.5">
+              <a
+                href="tel:0345198135"
+                className="transition-colors duration-300 hover:text-[#c49b41]"
+              >
+                0345 198 135
+              </a>
+              <a
+                href="tel:0868842988"
+                className="transition-colors duration-300 hover:text-[#c49b41]"
+              >
+                0868 842 988
+              </a>
+            </div>
           </div>
 
           {/* Decorative star ornament */}
