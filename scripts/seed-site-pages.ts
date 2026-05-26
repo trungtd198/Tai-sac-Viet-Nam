@@ -26,7 +26,7 @@ async function ensureReferenceData() {
     await prisma.schedule.createMany({
       data: [
         {
-          date: new Date("2026-05-20T00:00:00.000Z"),
+          date: new Date("2026-05-26T00:00:00.000Z"),
           time: "09:00",
           title: "Tuyển sinh toàn quốc",
           description: "Công bố thông tin và tiếp nhận hồ sơ dự thi.",

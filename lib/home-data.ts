@@ -47,7 +47,7 @@ export const awards = [
 export const news = [
   {
     title: "Tài Sắc Việt Nam 2026 mở đơn tuyển sinh",
-    date: "20/05/2026",
+    date: "26/05/2026",
     excerpt: "Hành trình tìm kiếm gương mặt phụ nữ Việt Nam thế hệ mới chính thức bắt đầu.",
     image:
       "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=900&q=80"
