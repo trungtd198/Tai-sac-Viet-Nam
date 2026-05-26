@@ -548,7 +548,7 @@ async function ScheduleBlock({ block }: { block: Block }) {
   const fallbackSchedules = [
     {
       id: "fallback-schedule-1",
-      time: "Đến 25/06/2026",
+      time: "26/05/2026 - 25/06/2026",
       title: "Tuyển sinh toàn quốc",
       description: "Tiếp nhận hồ sơ đăng ký dự thi trực tuyến trên toàn quốc.",
     },
