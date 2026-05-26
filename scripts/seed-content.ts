@@ -122,7 +122,7 @@ export const scheduleBlocks = [
     type: "schedule",
     items: programFormatItems.map((item, index) => ({
       date: [
-        "Đến 25/06/2026",
+        "26/05/2026 - 25/06/2026",
         "Giai đoạn 2",
         "Giai đoạn 3",
         "Ghi hình",
@@ -313,16 +313,16 @@ export const examScheduleBlocks = [
     type: "schedule",
     items: [
       {
-        date: "Đến 25/06/2026",
+        date: "26/05/2026 - 25/06/2026",
         title: "CASTING — Tuyển sinh toàn quốc",
         description:
-          "Thời hạn đăng ký dự thi: đến hết ngày 25/06/2026. Địa điểm: Toàn quốc. Thí sinh nộp hồ sơ trực tiếp hoặc qua cổng đăng ký online.",
+          "Thời gian đăng ký dự thi: từ ngày 26/05/2026 đến hết ngày 25/06/2026. Địa điểm: Toàn quốc. Thí sinh nộp hồ sơ trực tiếp hoặc qua cổng đăng ký online.",
       },
       {
         date: "Tháng 6/2026",
         title: "SƠ KHẢO — Hà Nội",
         description:
-          "Địa điểm: Hà Nội. Nội dung: Trình diễn catwalk theo nhạc & thi tài năng. Ban giám khảo tuyển chọn Top 90 thí sinh điểm cao nhất vào vòng Bán kết. Lưu ý: Trang phục và trang điểm thí sinh tự chuẩn bị; thí sinh tự túc chi phí ăn uống và đi lại.",
+          "Địa điểm: Hà Nội. Nội dung: Trình diễn catwalk theo nhạc & thi tài năng. Ban giám khảo chọn 60 thí sinh vào vòng Bán Kết. Lưu ý: Trang phục và trang điểm thí sinh tự chuẩn bị; thí sinh tự túc chi phí ăn uống và đi lại.",
       },
       {
         date: "Tháng 7–8/2026",
@@ -415,7 +415,7 @@ export const timelineBlocks = [
     type: "schedule",
     items: [
       {
-        date: "Đến 25/06/2026",
+        date: "26/05/2026 - 25/06/2026",
         title: "CASTING — Tuyển sinh toàn quốc",
         description:
           "Mở cổng tiếp nhận hồ sơ trực tiếp và online trên toàn quốc.",
@@ -424,7 +424,7 @@ export const timelineBlocks = [
         date: "Tháng 6/2026",
         title: "SƠ KHẢO — Hà Nội",
         description:
-          "Thi catwalk và tài năng. Top 90 thí sinh điểm cao nhất vào vòng Bán kết.",
+          "Thi catwalk và tài năng. Chọn 60 thí sinh vào vòng Bán Kết.",
       },
       {
         date: "Tháng 7–8/2026",
@@ -513,14 +513,14 @@ export const auditionBlocks = [
     type: "richText",
     eyebrow: "CASTING",
     title: "Đăng ký dự thi — Casting toàn quốc",
-    body: `Thời gian đăng ký dự thi: Đến hết ngày 25/06/2026\nĐịa điểm: Toàn quốc\n\nThí sinh có thể đăng ký dự thi trực tiếp tại các điểm tiếp nhận hồ sơ hoặc qua cổng đăng ký online của chương trình.`,
+    body: `Thời gian đăng ký dự thi: Từ ngày 26/05/2026 đến hết ngày 25/06/2026\nĐịa điểm: Toàn quốc\n\nThí sinh có thể đăng ký dự thi trực tiếp tại các điểm tiếp nhận hồ sơ hoặc qua cổng đăng ký online của chương trình.`,
   },
   {
     id: "audition-sokhao",
     type: "richText",
     eyebrow: "SƠ KHẢO",
     title: "Vòng sơ khảo",
-    body: `Thời gian: Tháng 6/2026\nĐịa điểm: Hà Nội\n\n**Nội dung thi:**\n• Trình diễn catwalk theo nhạc\n• Phần thi tài năng\n\nBan giám khảo sẽ tuyển chọn Top 90 thí sinh điểm cao nhất vào vòng Bán kết.\n\n**Một số lưu ý và yêu cầu:**\n• Trang phục và trang điểm thí sinh tự chuẩn bị.\n• Các thí sinh phải tự túc chi phí ăn uống và đi lại cho các phần thi sơ khảo.`,
+    body: `Thời gian: Tháng 6/2026\nĐịa điểm: Hà Nội\n\n**Nội dung thi:**\n• Trình diễn catwalk theo nhạc\n• Phần thi tài năng\n\nBan giám khảo sẽ chọn 60 thí sinh vào vòng Bán Kết.\n\n**Một số lưu ý và yêu cầu:**\n• Trang phục và trang điểm thí sinh tự chuẩn bị.\n• Các thí sinh phải tự túc chi phí ăn uống và đi lại cho các phần thi sơ khảo.`,
   },
 ];
 

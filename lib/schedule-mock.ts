@@ -12,7 +12,7 @@ export type ScheduleDay = {
 
 export const scheduleDays: ScheduleDay[] = [
   {
-    date: "2026-08-20",
+    date: "2026-05-26",
     label: "Giai đoạn tuyển sinh",
     events: [
       {

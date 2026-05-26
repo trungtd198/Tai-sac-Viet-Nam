@@ -16,7 +16,7 @@ export const newsPosts: NewsPost[] = [
     title: "Tài Sắc Việt Nam 2026 mở đơn tuyển sinh",
     thumbnail:
       "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80",
-    createdAt: "2026-05-20",
+    createdAt: "2026-05-26",
     excerpt: "Ban tổ chức chính thức mở đơn tuyển sinh toàn quốc cho hành trình đi tìm vẻ đẹp giao thoa giữa truyền thống và hiện đại.",
     content: [
       {
