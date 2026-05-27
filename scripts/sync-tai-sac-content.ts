@@ -180,8 +180,8 @@ async function syncHomeBlocks() {
     title: "Đếm ngược đến hạn đăng ký",
     content: {
       eyebrow: "Hạn đăng ký",
-      targetDate: "2026-06-25T23:59:59+07:00",
-      description: "Thời hạn đăng ký dự thi: 25/06/2026."
+      targetDate: "2026-06-30T23:59:59+07:00",
+      description: "Thời hạn đăng ký dự thi: 30/06/2026."
     },
     order: 2
   });
@@ -303,7 +303,7 @@ async function syncReferenceData() {
 
   const schedules = [
     {
-      date: new Date("2026-05-26T00:00:00.000Z"),
+      date: new Date("2026-05-30T00:00:00.000Z"),
       time: "09:00",
       title: programFormatItems[0].title,
       description: "Mở đơn tiếp nhận hồ sơ thí sinh nữ công dân Việt Nam từ 18 đến 28 tuổi.",
@@ -398,7 +398,7 @@ async function syncPosts() {
       seoTitle: "Tài Sắc Việt Nam 2026 mở đơn tuyển sinh toàn quốc",
       seoDescription: "Thông tin khởi động tuyển sinh và sơ lược chương trình.",
       status: PublishStatus.PUBLISHED,
-      publishedAt: new Date("2026-05-26T09:00:00.000Z"),
+      publishedAt: new Date("2026-05-30T09:00:00.000Z"),
       blocks: postBlocks
     }
   ];
