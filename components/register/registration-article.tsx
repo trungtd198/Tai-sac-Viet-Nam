@@ -12,6 +12,8 @@ const contactItems = [
   ["Facebook", socialLinks.facebook],
   ["Youtube", socialLinks.youtube],
   ["Email", socialLinks.email],
+  ["Hotline 1", "tel:0345198135"],
+  ["Hotline 2", "tel:0868842988"],
   ["Website", "https://taisacvietnam.vn/"],
 ];
 

@@ -40,8 +40,8 @@ function getFallbackHomeBlocks() {
       title: "Đếm ngược đến hạn đăng ký",
       content: {
         eyebrow: "Hạn đăng ký",
-        targetDate: "2026-06-25T23:59:59+07:00",
-        description: "Thời hạn đăng ký dự thi: 25/06/2026."
+        targetDate: "2026-06-30T23:59:59+07:00",
+        description: "Thời hạn đăng ký dự thi: 30/06/2026."
       },
       order: 2,
       isActive: true,

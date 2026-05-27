@@ -26,7 +26,7 @@ async function ensureReferenceData() {
     await prisma.schedule.createMany({
       data: [
         {
-          date: new Date("2026-05-26T00:00:00.000Z"),
+          date: new Date("2026-05-30T00:00:00.000Z"),
           time: "09:00",
           title: "Tuyển sinh toàn quốc",
           description: "Công bố thông tin và tiếp nhận hồ sơ dự thi.",
@@ -208,8 +208,8 @@ async function seedHomeBlocks() {
         title: "Đếm ngược đến hạn đăng ký",
         content: {
           eyebrow: "Hạn đăng ký",
-          targetDate: "2026-06-25T23:59:59+07:00",
-          description: "Thời hạn đăng ký dự thi: 25/06/2026."
+          targetDate: "2026-06-30T23:59:59+07:00",
+          description: "Thời hạn đăng ký dự thi: 30/06/2026."
         },
         order: 2,
         isActive: true

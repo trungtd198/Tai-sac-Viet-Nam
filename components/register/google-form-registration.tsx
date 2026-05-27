@@ -31,7 +31,7 @@ export function GoogleFormRegistration() {
             },
             {
               icon: Clock,
-              title: "Hạn đăng ký: 25/06/2026",
+              title: "Hạn đăng ký: 30/06/2026",
               description: "Ban tổ chức sẽ liên hệ xác nhận sau khi tiếp nhận hồ sơ phù hợp."
             }
           ].map((item) => {
