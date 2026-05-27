@@ -122,7 +122,7 @@ export const scheduleBlocks = [
     type: "schedule",
     items: programFormatItems.map((item, index) => ({
       date: [
-        "26/05/2026 - 25/06/2026",
+        "30/05/2026 - 30/06/2026",
         "Giai đoạn 2",
         "Giai đoạn 3",
         "Ghi hình",
@@ -313,10 +313,10 @@ export const examScheduleBlocks = [
     type: "schedule",
     items: [
       {
-        date: "26/05/2026 - 25/06/2026",
+        date: "30/05/2026 - 30/06/2026",
         title: "CASTING — Tuyển sinh toàn quốc",
         description:
-          "Thời gian đăng ký dự thi: từ ngày 26/05/2026 đến hết ngày 25/06/2026. Địa điểm: Toàn quốc. Thí sinh nộp hồ sơ trực tiếp hoặc qua cổng đăng ký online.",
+          "Thời gian đăng ký dự thi: từ ngày 30/05/2026 đến hết ngày 30/06/2026. Địa điểm: Toàn quốc. Thí sinh nộp hồ sơ trực tiếp hoặc qua cổng đăng ký online.",
       },
       {
         date: "Tháng 6/2026",
@@ -415,7 +415,7 @@ export const timelineBlocks = [
     type: "schedule",
     items: [
       {
-        date: "26/05/2026 - 25/06/2026",
+        date: "30/05/2026 - 30/06/2026",
         title: "CASTING — Tuyển sinh toàn quốc",
         description:
           "Mở cổng tiếp nhận hồ sơ trực tiếp và online trên toàn quốc.",
@@ -513,7 +513,7 @@ export const auditionBlocks = [
     type: "richText",
     eyebrow: "CASTING",
     title: "Đăng ký dự thi — Casting toàn quốc",
-    body: `Thời gian đăng ký dự thi: Từ ngày 26/05/2026 đến hết ngày 25/06/2026\nĐịa điểm: Toàn quốc\n\nThí sinh có thể đăng ký dự thi trực tiếp tại các điểm tiếp nhận hồ sơ hoặc qua cổng đăng ký online của chương trình.`,
+    body: `Thời gian đăng ký dự thi: Từ ngày 30/05/2026 đến hết ngày 30/06/2026\nĐịa điểm: Toàn quốc\n\nThí sinh có thể đăng ký dự thi trực tiếp tại các điểm tiếp nhận hồ sơ hoặc qua cổng đăng ký online của chương trình.`,
   },
   {
     id: "audition-sokhao",
@@ -609,7 +609,7 @@ export const partnersPageBlocks = [
     type: "richText",
     eyebrow: "Đơn vị tổ chức",
     title: "Công ty Cổ phần Truyền thông Giải trí TTN Việt Nam",
-    body: `TTN Media & Entertainment là đơn vị tổ chức chương trình ${programBrand.name}, phụ trách định hướng sản xuất, truyền thông và vận hành hành trình tuyển sinh, đào tạo, ghi hình và Gala Chung kết.\n\nThông tin liên hệ:\n• Email: contact.ttnmedia@gmail.com\n• Hotline: 0345 708 135\n• Địa chỉ: Số 4, Khu nhà ở Licogi 13, Phường Thanh Xuân Trung, Quận Thanh Xuân, TP. Hà Nội`,
+    body: `TTN Media & Entertainment là đơn vị tổ chức chương trình ${programBrand.name}, phụ trách định hướng sản xuất, truyền thông và vận hành hành trình tuyển sinh, đào tạo, ghi hình và Gala Chung kết.\n\nThông tin liên hệ:\n• Email: contact.ttnmedia@gmail.com\n• Hotline: 0345 198 135, 0868 842 988\n• Địa chỉ: Số 4, Khu nhà ở Licogi 13, Phường Thanh Xuân Trung, Quận Thanh Xuân, TP. Hà Nội`,
   },
   {
     id: "partners-list",
@@ -660,7 +660,7 @@ export const advertisingContactBlocks = [
     type: "richText",
     eyebrow: "Đơn vị thực hiện",
     title: "Công ty Cổ phần Truyền thông Giải trí TTN Việt Nam",
-    body: `📧 Email: contact.ttnmedia@gmail.com\n📞 Hotline: 0345 708 135\n📍 Địa chỉ: Số 4, Khu nhà ở Licogi 13, Phường Thanh Xuân Trung, Quận Thanh Xuân, TP. Hà Nội`,
+    body: `📧 Email: contact.ttnmedia@gmail.com\n📞 Hotline: 0345 198 135, 0868 842 988\n📍 Địa chỉ: Số 4, Khu nhà ở Licogi 13, Phường Thanh Xuân Trung, Quận Thanh Xuân, TP. Hà Nội`,
   },
 ];
 

@@ -18,7 +18,7 @@ async function main() {
     await prisma.schedule.createMany({
       data: [
         {
-          date: new Date("2026-05-26T00:00:00.000Z"),
+          date: new Date("2026-05-30T00:00:00.000Z"),
           time: "09:00",
           title: "Tuyển sinh toàn quốc",
           description: "Mở đơn tiếp nhận hồ sơ thí sinh trên toàn quốc.",

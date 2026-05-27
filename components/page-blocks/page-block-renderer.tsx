@@ -214,7 +214,7 @@ function CountdownSectionBlock({ block }: { block: Block }) {
   const content = asRecord(block.content);
   const targetDate = readString(
     content.targetDate,
-    "2026-06-25T23:59:59+07:00",
+    "2026-06-30T23:59:59+07:00",
   );
   const eyebrow = readString(content.eyebrow, "Hạn đăng ký");
   const description = readString(content.description);
@@ -548,7 +548,7 @@ async function ScheduleBlock({ block }: { block: Block }) {
   const fallbackSchedules = [
     {
       id: "fallback-schedule-1",
-      time: "26/05/2026 - 25/06/2026",
+      time: "30/05/2026 - 30/06/2026",
       title: "Tuyển sinh toàn quốc",
       description: "Tiếp nhận hồ sơ đăng ký dự thi trực tuyến trên toàn quốc.",
     },
