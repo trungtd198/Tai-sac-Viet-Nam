@@ -101,8 +101,11 @@ export function RegistrationArticle() {
               Tải đơn đăng ký dự thi:
             </p>
             <p className="registration-premium__card-text">
-              Dành cho thí sinh muốn tải mẫu đơn, tự điền thông tin và chuẩn bị
-              hồ sơ dự thi.
+              Dành cho thí sinh muốn nộp trực tiếp, tự điền thông tin và chuẩn
+              bị hồ sơ dự thi.
+              <br />
+              Địa chỉ: Lô số 4 Khu nhà ở Locogi 13, Phường Thanh Xuân, TP. Hà
+              Nội
             </p>
             <a
               href={registrationPdfUrl}
