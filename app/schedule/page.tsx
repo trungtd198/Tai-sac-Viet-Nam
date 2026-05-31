@@ -7,7 +7,7 @@ import { createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Lịch trình",
   description: "Lịch trình sự kiện được nhóm theo ngày, kèm giờ, tiêu đề và mô tả.",
-  path: "/schedule"
+  path: "/lich-trinh"
 });
 
 export default function SchedulePage() {
