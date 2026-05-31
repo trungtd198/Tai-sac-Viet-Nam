@@ -6,10 +6,14 @@ const siteName = programBrand.name;
 const defaultDescription =
   "Tài Sắc Việt Nam 2026 - hành trình tìm kiếm hình ảnh người phụ nữ Việt Nam thế hệ mới: bản lĩnh, trí tuệ và lan tỏa giá trị văn hóa Việt.";
 const defaultImage = "/assets/banners/banner.jpg";
+const defaultSiteUrl = "https://taisacvietnam.vn";
+
+export function siteOrigin() {
+  return (process.env.NEXT_PUBLIC_SITE_URL || defaultSiteUrl).replace(/\/$/, "");
+}
 
 export function siteUrl(path = "/") {
-  const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, "");
-  return `${baseUrl}${path.startsWith("/") ? path : `/${path}`}`;
+  return `${siteOrigin()}${path.startsWith("/") ? path : `/${path}`}`;
 }
 
 export function createMetadata({
@@ -42,6 +46,7 @@ export function createMetadata({
     openGraph: {
       type: "website",
       siteName,
+      locale: "vi_VN",
       title,
       description: resolvedDescription,
       url,
