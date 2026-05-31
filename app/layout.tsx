@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { createMetadata, defaultSeo, siteUrl } from "@/lib/seo";
+import { createMetadata, defaultSeo, siteOrigin } from "@/lib/seo";
 import { programBrand } from "@/lib/program-copy";
 
 export const metadata: Metadata = {
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: defaultSeo.description,
     path: "/"
   }),
-  metadataBase: new URL(siteUrl()),
+  metadataBase: new URL(siteOrigin()),
   applicationName: programBrand.name,
   authors: [{ name: programBrand.name }],
   creator: programBrand.name,
@@ -18,6 +18,11 @@ export const metadata: Metadata = {
     "sự kiện",
     "văn hóa",
     "Việt Nam",
+    "Tài Sắc Việt Nam 2026",
+    "cuộc thi Tài Sắc Việt Nam",
+    "tuyển sinh Tài Sắc Việt Nam",
+    "truyền hình thực tế",
+    "phụ nữ Việt Nam",
     "tài sắc",
     "đăng ký",
     "tin tức"

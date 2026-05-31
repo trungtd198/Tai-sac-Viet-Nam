@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = createMetadata({
   title: "Tin tức",
   description: "Tin tức, thông báo và bài viết mới nhất của sự kiện.",
-  path: "/news",
+  path: "/tin-tuc",
 });
 
 export default async function NewsPage() {

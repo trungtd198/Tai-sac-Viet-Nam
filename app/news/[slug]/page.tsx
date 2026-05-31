@@ -82,7 +82,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
               {/* Breadcrumb */}
               <nav className="mb-8 flex items-center gap-2" aria-label="Breadcrumb">
                 <Link
-                  href="/news"
+                  href="/tin-tuc"
                   className="group inline-flex items-center gap-1.5 font-cinzel text-xs font-semibold uppercase tracking-[0.22em] text-white/50 transition-colors duration-300 hover:text-[#c49b41]"
                 >
                   <ChevronLeft className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-x-0.5" />
